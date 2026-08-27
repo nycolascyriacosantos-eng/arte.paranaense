@@ -2,10 +2,11 @@ body {
     background-color: #f4f1ea;
     color: #222222;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header {
-    background-color: #43e3ff;
+    background-color: #21bb7b;
     color: white;
     text-align: center;
     padding: 30px;
@@ -16,10 +17,71 @@ h1 {
 }
 
 h2 {
-    color: #65e0ff;
+    color: #2d71a8;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #74255c;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #c77dff;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #6e2e2e;
+    margin-top: 8px;
+}
+
+.card {
+    background-color: #f3d9fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #527728;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #222222;
 }
