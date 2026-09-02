@@ -82,6 +82,28 @@ figcaption {
     margin-top: 0;
 }
 
+/* Estilização do Rodapé */
 footer {
     background-color: #222222;
+    color: #f4f1ea;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #e0e0e0;
+}
+
+footer a {
+    color: #21bb7b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #c77dff;
 }
