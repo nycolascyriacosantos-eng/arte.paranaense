@@ -91,19 +91,19 @@ footer {
     margin-top: 40px;
 }
 
-footer p {
-    font-size: 14px;
-    margin: 5px 0;
-    color: #e0e0e0;
+button{
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
-
-footer a {
-    color: #21bb7b;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.2s ease;
+button:hover{
+    background-color: aquamarine;
 }
-
-footer a:hover {
-    color: #c77dff;
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
 }
