@@ -91,7 +91,7 @@ footer {
     margin-top: 40px;
 }
 
-button{
+button {
     background-color: violet;
     color: white;
     border: none;
@@ -99,9 +99,11 @@ button{
     border-radius: 8px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: aquamarine;
 }
+
 .curtir {
     display: block;
     width: fit-content;
